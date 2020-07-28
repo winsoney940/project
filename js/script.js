@@ -27,40 +27,45 @@
 // const result = +prompt("Вам есть 18?", "Отвечайте");
 // console.log(result + 5);
 
-const answers = [];
+// const answers = [];
 
-answers[0] = prompt('Как ваше имя?', '');
-answers[1] = prompt('Как ваша фамилия?', '');
-answers[2] = prompt('Сколько вам лет?', '');
+// answers[0] = prompt('Как ваше имя?', '');
+// answers[1] = prompt('Как ваша фамилия?', '');
+// answers[2] = prompt('Сколько вам лет?', '');
 
-console.log(typeof(answers));
+// console.log(typeof(answers));
 
-const category = 'toys';
+// const category = 'toys';
 
-console.log(`https://someurl.com/${category}/5`);
+// console.log(`https://someurl.com/${category}/5`);
 
-const user = "Ivan";
+// const user = "Ivan";
 
-alert(`Привет, ${user}`);
+// alert(`Привет, ${user}`);
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-// ++incr;
-// --decr;
+// // ++incr;
+// // --decr;
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
 
-console.log(5%2);
+// console.log(5%2);
 
-console.log(2*4 === 8);
+// console.log(2*4 === 8);
 
-const isChecked = true,
-      isClose = false;
+// const isChecked = true,
+//       isClose = false;
 
-console.log(isChecked || !isClose);
+// console.log(isChecked || !isClose);
 
-console.log(2 + 2 * 2 !== '6');
+// console.log(2 + 2 * 2 !== '6');
+
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+
+
+        
     
 
