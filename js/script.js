@@ -73,6 +73,19 @@ const personalMovieDB = {
     privat: false
 };
 
+const questions = [
+    prompt('Один из последних просмотренных фильмов?', ''),
+    prompt('На сколько оцените его?', ''),
+    prompt('Один из последних просмотренных фильмов?', ''),
+    prompt('На сколько оцените его?', '')
+];
+
+personalMovieDB.movies[questions[0]] = questions[1];
+personalMovieDB.movies[questions[2]] = questions[3];
+
+console.log(personalMovieDB);
+
+
 
         
     
